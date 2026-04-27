@@ -2,13 +2,13 @@
 
 Projeto completo de automação de testes API utilizando Playwright, cobrindo cenários reais do dia a dia de um QA, incluindo validações, contratos, autenticação, mocks e dados dinâmicos.
 
-
+---
 
 ## 🎯 Objetivo
 
 Criar uma suíte robusta de testes automatizados para APIs REST, demonstrando boas práticas de organização, reutilização de código e validação de respostas.
 
-
+---
 
 ## 🧪 Cenários Automatizados
 
@@ -45,10 +45,11 @@ Criar uma suíte robusta de testes automatizados para APIs REST, demonstrando bo
 * ✅ Interceptação de requisição
 * ✅ Simulação de resposta customizada
 
+---
 
 ## 🧱 Estrutura do Projeto
 
-
+```
 playwright-api-qa-project
 │
 ├── tests
@@ -65,9 +66,9 @@ playwright-api-qa-project
 ├── playwright.config.js
 ├── package.json
 └── README.md
+```
 
-
-
+---
 
 ## ⚙️ Tecnologias Utilizadas
 
@@ -77,6 +78,7 @@ playwright-api-qa-project
 * Faker.js
 * GitHub Actions (CI/CD)
 
+---
 
 ## ▶️ Como Executar o Projeto
 
@@ -98,7 +100,7 @@ npm install
 npx playwright test
 ```
 
-
+---
 
 ## 📊 Relatório de Testes
 
@@ -108,13 +110,13 @@ Após execução:
 npx playwright show-report
 ```
 
-
+---
 
 ## 🔄 Integração Contínua (CI/CD)
 
 O projeto está preparado para rodar no GitHub Actions automaticamente a cada push, garantindo qualidade contínua do código.
 
-
+---
 
 ## 🧠 Boas Práticas Aplicadas
 
@@ -126,13 +128,13 @@ O projeto está preparado para rodar no GitHub Actions automaticamente a cada pu
 * Simulação de cenários reais (mock)
 * Organização escalável
 
-
+---
 
 ## 📌 Considerações
 
 A API utilizada (JSONPlaceholder) não possui autenticação real, por isso alguns cenários foram simulados para representar comportamentos esperados em ambientes reais.
 
-
+---
 
 ## 👨‍💻 Autor
 
@@ -140,4 +142,6 @@ Ryan Nóbrega
 🔗 https://github.com/ryan23nobrega
 🔗 https://www.linkedin.com/in/ryantech23
 
----
+
+
+
